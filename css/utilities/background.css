@@ -1,0 +1,58 @@
+/* Background (bg) */
+
+:root {
+	--bg-primary: {
+		@apply --color-light;
+		background-color: var(--color-primary);
+		-webkit-font-smoothing: antialiased;
+	}
+
+	--bg-dark: {
+		@apply --color-light;
+		background-color: var(--color-dark);
+		-webkit-font-smoothing: antialiased;
+	}
+
+	--bg-white: {
+		@apply --color-dark;
+		background-color: white;
+	}
+
+	--bg-tint: {
+		@apply --color-dark;
+		background-color: var(--color-tint);
+	}
+
+	--bg-darkerTint: {
+		@apply --color-dark;
+		background-color: var(--color-darkerTint);
+	}
+
+	--bg-gradient-servQuick: {
+		background: var(--gradient-servQuick);
+	}
+}
+
+.bg-primary {
+	@apply --bg-primary;
+}
+
+.bg-dark {
+	@apply --bg-dark;
+}
+
+.bg-white {
+	@apply --bg-white;
+}
+
+.bg-tint {
+	@apply --bg-tint;
+}
+
+.bg-darkerTint {
+	@apply --bg-darkerTint;
+}
+
+.bg-gradient-servQuick {
+	@apply --bg-gradient-servQuick;
+}

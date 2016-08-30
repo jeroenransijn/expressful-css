@@ -1,0 +1,12 @@
+/**
+ * Spacing scale based on responsive rems using city blocks naming convention
+ */
+:root {
+	--spacing-70: 0.25rem;
+	--spacing-80: 0.5rem;
+	--spacing-90: 1rem; /* lower is smaller */
+	--spacing-100: 2rem; /* default */
+	--spacing-200: 4rem; /* higher is bigger */
+	--spacing-300: 8rem;
+	--spacing-400: 16rem;
+}

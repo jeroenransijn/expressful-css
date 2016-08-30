@@ -1,0 +1,360 @@
+/**
+ *Spacing
+ * ---
+ * .{margin|padding}-{direction}-{scale}
+ *
+ * direction: all | vertical | horizontal | top | bottom | left | right
+ * scale: 0 | 70 | 80 | 90 | 100 | 200 | 300 | 400
+ *
+ * Examples: margin-all-100 | padding-vertical-60
+ *
+ * Inspired by tachyons spacing: https://github.com/tachyons-css/tachyons-spacing
+ *//* margin-top *//* scale step: 70 */
+
+.padding-all-70,
+.padding-vertical-70,
+.padding-top-70 {
+	padding-top: var(--spacing-70);
+}
+
+.margin-all-70,
+.margin-vertical-70,
+.margin-top-70 {
+	margin-top: var(--spacing-70);
+}
+
+.padding-all-70,
+.padding-vertical-70,
+.padding-bottom-70 {
+	padding-bottom: var(--spacing-70);
+}
+
+.margin-all-70,
+.margin-vertical-70,
+.margin-bottom-70 {
+	margin-bottom: var(--spacing-70);
+}
+
+.padding-all-70,
+.padding-horizontal-70,
+.padding-left-70 {
+	padding-left: var(--spacing-70);
+}
+
+.margin-all-70,
+.margin-horizontal-70,
+.margin-left-70 {
+	margin-left: var(--spacing-70);
+}
+
+.padding-all-70,
+.padding-horizontal-70,
+.padding-right-70 {
+	padding-right: var(--spacing-70);
+}
+
+.margin-all-70,
+.margin-horizontal-70,
+.margin-right-70 {
+	margin-right: var(--spacing-70);
+}
+
+/* scale step: 80 */
+
+.padding-all-80,
+.padding-vertical-80,
+.padding-top-80 {
+	padding-top: var(--spacing-80);
+}
+
+.margin-all-80,
+.margin-vertical-80,
+.margin-top-80 {
+	margin-top: var(--spacing-80);
+}
+
+.padding-all-80,
+.padding-vertical-80,
+.padding-bottom-80 {
+	padding-bottom: var(--spacing-80);
+}
+
+.margin-all-80,
+.margin-vertical-80,
+.margin-bottom-80 {
+	margin-bottom: var(--spacing-80);
+}
+
+.padding-all-80,
+.padding-horizontal-80,
+.padding-left-80 {
+	padding-left: var(--spacing-80);
+}
+
+.margin-all-80,
+.margin-horizontal-80,
+.margin-left-80 {
+	margin-left: var(--spacing-80);
+}
+
+.padding-all-80,
+.padding-horizontal-80,
+.padding-right-80 {
+	padding-right: var(--spacing-80);
+}
+
+.margin-all-80,
+.margin-horizontal-80,
+.margin-right-80 {
+	margin-right: var(--spacing-80);
+}
+
+/* scale step: 90 */
+
+.padding-all-90,
+.padding-vertical-90,
+.padding-top-90 {
+	padding-top: var(--spacing-90);
+}
+
+.margin-all-90,
+.margin-vertical-90,
+.margin-top-90 {
+	margin-top: var(--spacing-90);
+}
+
+.padding-all-90,
+.padding-vertical-90,
+.padding-bottom-90 {
+	padding-bottom: var(--spacing-90);
+}
+
+.margin-all-90,
+.margin-vertical-90,
+.margin-bottom-90 {
+	margin-bottom: var(--spacing-90);
+}
+
+.padding-all-90,
+.padding-horizontal-90,
+.padding-left-90 {
+	padding-left: var(--spacing-90);
+}
+
+.margin-all-90,
+.margin-horizontal-90,
+.margin-left-90 {
+	margin-left: var(--spacing-90);
+}
+
+.padding-all-90,
+.padding-horizontal-90,
+.padding-right-90 {
+	padding-right: var(--spacing-90);
+}
+
+.margin-all-90,
+.margin-horizontal-90,
+.margin-right-90 {
+	margin-right: var(--spacing-90);
+}
+
+/* scale step: 100 */
+
+.padding-all-100,
+.padding-vertical-100,
+.padding-top-100 {
+	padding-top: var(--spacing-100);
+}
+
+.margin-all-100,
+.margin-vertical-100,
+.margin-top-100 {
+	margin-top: var(--spacing-100);
+}
+
+.padding-all-100,
+.padding-vertical-100,
+.padding-bottom-100 {
+	padding-bottom: var(--spacing-100);
+}
+
+.margin-all-100,
+.margin-vertical-100,
+.margin-bottom-100 {
+	margin-bottom: var(--spacing-100);
+}
+
+.padding-all-100,
+.padding-horizontal-100,
+.padding-left-100 {
+	padding-left: var(--spacing-100);
+}
+
+.margin-all-100,
+.margin-horizontal-100,
+.margin-left-100 {
+	margin-left: var(--spacing-100);
+}
+
+.padding-all-100,
+.padding-horizontal-100,
+.padding-right-100 {
+	padding-right: var(--spacing-100);
+}
+
+.margin-all-100,
+.margin-horizontal-100,
+.margin-right-100 {
+	margin-right: var(--spacing-100);
+}
+
+/* scale step: 200 */
+
+.padding-all-200,
+.padding-vertical-200,
+.padding-top-200 {
+	padding-top: var(--spacing-200);
+}
+
+.margin-all-200,
+.margin-vertical-200,
+.margin-top-200 {
+	margin-top: var(--spacing-200);
+}
+
+.padding-all-200,
+.padding-vertical-200,
+.padding-bottom-200 {
+	padding-bottom: var(--spacing-200);
+}
+
+.margin-all-200,
+.margin-vertical-200,
+.margin-bottom-200 {
+	margin-bottom: var(--spacing-200);
+}
+
+.padding-all-200,
+.padding-horizontal-200,
+.padding-left-200 {
+	padding-left: var(--spacing-200);
+}
+
+.margin-all-200,
+.margin-horizontal-200,
+.margin-left-200 {
+	margin-left: var(--spacing-200);
+}
+
+.padding-all-200,
+.padding-horizontal-200,
+.padding-right-200 {
+	padding-right: var(--spacing-200);
+}
+
+.margin-all-200,
+.margin-horizontal-200,
+.margin-right-200 {
+	margin-right: var(--spacing-200);
+}
+
+/* scale step: 300 */
+
+.padding-all-300,
+.padding-vertical-300,
+.padding-top-300 {
+	padding-top: var(--spacing-300);
+}
+
+.margin-all-300,
+.margin-vertical-300,
+.margin-top-300 {
+	margin-top: var(--spacing-300);
+}
+
+.padding-all-300,
+.padding-vertical-300,
+.padding-bottom-300 {
+	padding-bottom: var(--spacing-300);
+}
+
+.margin-all-300,
+.margin-vertical-300,
+.margin-bottom-300 {
+	margin-bottom: var(--spacing-300);
+}
+
+.padding-all-300,
+.padding-horizontal-300,
+.padding-left-300 {
+	padding-left: var(--spacing-300);
+}
+
+.margin-all-300,
+.margin-horizontal-300,
+.margin-left-300 {
+	margin-left: var(--spacing-300);
+}
+
+.padding-all-300,
+.padding-horizontal-300,
+.padding-right-300 {
+	padding-right: var(--spacing-300);
+}
+
+.margin-all-300,
+.margin-horizontal-300,
+.margin-right-300 {
+	margin-right: var(--spacing-300);
+}
+
+/* scale step: 400 */
+
+.padding-all-400,
+.padding-vertical-400,
+.padding-top-400 {
+	padding-top: var(--spacing-400);
+}
+
+.margin-all-400,
+.margin-vertical-400,
+.margin-top-400 {
+	margin-top: var(--spacing-400);
+}
+
+.padding-all-400,
+.padding-vertical-400,
+.padding-bottom-400 {
+	padding-bottom: var(--spacing-400);
+}
+
+.margin-all-400,
+.margin-vertical-400,
+.margin-bottom-400 {
+	margin-bottom: var(--spacing-400);
+}
+
+.padding-all-400,
+.padding-horizontal-400,
+.padding-left-400 {
+	padding-left: var(--spacing-400);
+}
+
+.margin-all-400,
+.margin-horizontal-400,
+.margin-left-400 {
+	margin-left: var(--spacing-400);
+}
+
+.padding-all-400,
+.padding-horizontal-400,
+.padding-right-400 {
+	padding-right: var(--spacing-400);
+}
+
+.margin-all-400,
+.margin-horizontal-400,
+.margin-right-400 {
+	margin-right: var(--spacing-400);
+}

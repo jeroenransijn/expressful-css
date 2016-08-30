@@ -1,0 +1,52 @@
+:root {
+	--color-dark: {
+		color: var(--textColor-dark);
+	}
+
+	--color-darkMuted: {
+		color: var(--textColor-darkMuted);
+	}
+
+	--color-darkSoftMuted: {
+		color: var(--textColor-darkSoftMuted);
+	}
+
+	--color-light: {
+		color: var(--textColor-light);
+		-webkit-font-smoothing: antialiased;
+	}
+
+	--color-lightMuted: {
+		color: var(--textColor-lightMuted);
+		-webkit-font-smoothing: antialiased;
+	}
+
+	--color-lightSoftMuted: {
+		color: var(--textColor-lightSoftMuted);
+		-webkit-font-smoothing: antialiased;
+	}
+}
+
+.color-dark {
+	@apply --color-dark;
+}
+
+.color-dark-Muted {
+	@apply --color-dark;
+}
+
+.color-dark-soft-muted {
+	@apply --color-dark;
+}
+
+.color-light {
+	@apply --color-light;
+}
+
+.color-lightMuted {
+	@apply --color-lightMuted;
+}
+
+.color-lightSoftMuted {
+	@apply --color-lightSoftMuted;
+}

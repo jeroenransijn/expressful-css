@@ -1,0 +1,49 @@
+/**
+ * main.css -- all imports go here
+ * ---
+ * USAGE: <link href="/dist/css/main.css" />
+ * ---
+ * WARNING: there is an issue with postcss-import hat crashes the css
+ * if you put anything else but imports here.
+ * --
+ */
+
+/* Settings */
+@import 'settings/colors';
+@import 'settings/gradients';
+@import 'settings/font-families';
+@import 'settings/font-sizes';
+@import 'settings/font-weights';
+@import 'settings/line-heights';
+@import 'settings/media-ranges';
+@import 'settings/spacing';
+
+/* Utilities */
+@import 'utilities/color';
+@import 'utilities/background';
+@import 'utilities/responsive-rem';
+@import 'utilities/clearfix';
+@import 'utilities/text';
+@import 'utilities/spacing';
+
+/* Reset */
+@import 'reset/full-reset';
+@import 'reset/box-sizing';
+@import 'reset/custom';
+
+/* Vendor */
+@import 'highlight.js/styles/github';
+
+/* Fonts */
+/* @import 'fonts/name-of-custom-font'; */
+
+/* Components */
+@import 'components/grid';
+@import 'components/card';
+@import 'components/page';
+@import 'components/button';
+@import 'components/container';
+@import 'components/content';
+@import 'components/hero';
+@import 'components/banner';
+@import 'components/button';

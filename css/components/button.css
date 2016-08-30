@@ -1,0 +1,204 @@
+.Button {
+	position: relative;
+	display: inline-block;
+	padding: 0.6em 1em;
+	border: none;
+	border-radius: 3px;
+	vertical-align: middle;
+	white-space: nowrap;
+	font-family: var(--font-family-sans-serif);
+	font-size: var(--font-size-80);
+	line-height: var(--line-height-100);
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	-webkit-font-smoothing: antialiased;
+
+	&:focus,
+	&:hover,
+	&:link,
+	&:visited {
+		outline: none;
+		text-decoriation: none;
+	}
+}
+
+.Button--uppercase {
+	padding: 0.9em 1.2em;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	font-weight: var(--font-weight-semi-bold);
+}
+
+.Button--small {
+	padding: 0.4em 0.8em;
+}
+
+.Button--big {
+	@media (--range-palm), (--range-hand), (--range-lap-s) {
+		font-size: var(--font-size-100);
+
+		&.Button--uppercase {
+			font-size: var(--font-size-90);
+		}
+	}
+	@media (--range-lap-m), (--range-lap-l), (--range-desk) {
+		font-size: var(--font-size-200);
+
+		&.Button--uppercase {
+			font-size: var(--font-size-100);
+		}
+	}
+}
+
+.Button--wide {
+	padding-left: 1.8em;
+	padding-right: 1.8em;
+
+	&.Button--uppercase {
+		padding-left: 2.6em;
+		padding-right: 2.6em;
+	}
+}
+
+.Button--minWidth {
+	min-width: 120px;
+}
+
+.Button--solid {
+	&.Button--default {
+		@apply --bg-darkerTint;
+
+		&:active {
+			background-color: color(var(--color-darkerTint) tint(15%));
+		}
+	}
+
+	&.Button--primary {
+		@apply --bg-primary;
+
+		&:active {
+			background-color: color(var(--color-primary) tint(15%));
+		}
+	}
+
+	&.Button--white {
+		@apply --color-dark;
+		background-color: white;
+
+		&:active {
+			background-color: color(white blackness(10%));
+		}
+	}
+
+	&.Button--dark {
+		@apply --color-light;
+		background-color: var(--color-dark);
+
+		&:active {
+			background-color: color(var(--color-dark) tint(15%));
+		}
+	}
+}
+
+.Button--outline {
+	background: transparent;
+
+	/* dark and default same when outlined */
+	&.Button--dark,
+	&.Button--default {
+		box-shadow: inset 0 0 0 1px color(var(--color-dark) alpha(50%));
+		color: var(--color-dark);
+
+		&:hover {
+			background-color: color(var(--color-dark) alpha(3%));
+			box-shadow: inset 0 0 0 1px color(var(--color-dark) alpha(80%));
+		}
+
+		&:active {
+			box-shadow: inset 0 0 0 1px color(var(--color-dark) tint(45%));
+			color: color(var(--color-dark) tint(30%));
+		}
+	}
+
+	&.Button--primary {
+		box-shadow: inset 0 0 0 1px color(var(--color-primary) alpha(50%));
+		color: var(--color-primary);
+
+		&:hover {
+			background-color: color(var(--color-primary) alpha(3%));
+			box-shadow: inset 0 0 0 1px color(var(--color-primary) alpha(80%));
+		}
+
+		&:active {
+			box-shadow: inset 0 0 0 1px color(var(--color-primary) tint(45%));
+			color: color(var(--color-primary) tint(30%));
+		}
+	}
+
+	&.Button--white {
+		box-shadow: inset 0 0 0 1px color(white alpha(50%));
+		color: white;
+
+		&:hover {
+			background-color: color(white alpha(3%));
+			box-shadow: inset 0 0 0 1px color(white alpha(80%));
+		}
+
+		&:active {
+			box-shadow: inset 0 0 0 1px color(white alpha(50%));
+			color: color(white alpha(50%));
+		}
+	}
+}
+
+.Button--rightArrow {
+	padding-right: 2.4em;
+
+	&:after {
+		position: absolute;
+		right: 0.6em;
+		display: inline-block;
+		content: '\f3d6';
+		text-transform: none;
+		font-family: "Ionicons";
+		font-size: 1.5em;
+		font-weight: normal;
+		font-style: normal;
+		font-variant: normal;
+		line-height: 1;
+		speak: none;
+		text-rendering: auto;
+		-webkit-font-smoothing: antialiased;
+	}
+}
+
+.Button--leftArrow {
+	padding-left: 2.4em;
+
+	&:before {
+		position: absolute;
+		left: 0.6em;
+		display: inline-block;
+		content: '\f3d5';
+		text-transform: none;
+		font-family: "Ionicons";
+		font-size: 1.5em;
+		font-weight: normal;
+		font-style: normal;
+		font-variant: normal;
+		line-height: 1;
+		speak: none;
+		text-rendering: auto;
+		-webkit-font-smoothing: antialiased;
+	}
+}
+
+.Button-icon {
+	position: relative;
+	top: 0.07em;
+
+	&:last-child {
+		margin-left: 0.2em;
+	}
+}
