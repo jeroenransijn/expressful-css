@@ -31,12 +31,12 @@
 	@apply --color-dark;
 }
 
-.color-dark-Muted {
-	@apply --color-dark;
+.color-darkMuted {
+	@apply --color-darkMuted;
 }
 
-.color-dark-soft-muted {
-	@apply --color-dark;
+.color-darkSoftMuted {
+	@apply --color-darkSoftMuted;
 }
 
 .color-light {
